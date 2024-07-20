@@ -8,11 +8,14 @@ function App() {
   let [counter, setCounter] = useState(15)
   // let counter= 5;
   const addvalue =()=>{
-   
+    
     setCounter(counter +1)
+
 }  
   const removeValue = ()=>{
+
     setCounter(counter -1)
+    
   }
   let object ={
     username:"hitesh",
